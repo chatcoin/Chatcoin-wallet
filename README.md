@@ -1,7 +1,7 @@
 Chatcoin integration/staging tree
 ================================
 
-http://www.talkcoin.org
+
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2014 Chatcoin Developers
@@ -13,7 +13,7 @@ Chatcoin is the first cryptocurrency to offer a true decentralized chat program 
 It also has a decentralized block reward voting, fast transactions, new efficient algorithm / GPU miner (based on NIST5: BLAKE - Grøstl - JH - Keccak - Skein).
 
 For more information, as well as an immediately useable, binary version of
-the Chatcoin client sofware, see http://www.talkcoin.org.
+the Chatcoin client sofware, see 
 
 License
 -------
@@ -62,6 +62,6 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake CHATCOIN_QT_TEST=1 -o Makefile.test talkcoin-qt.pro
+    qmake CHATCOIN_QT_TEST=1 -o Makefile.test chatcoin-qt.pro
     make -f Makefile.test
-    ./talkcoin-qt_test
+    ./chatcoin-qt_test
