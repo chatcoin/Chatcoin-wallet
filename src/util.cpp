@@ -1053,7 +1053,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Chatcoin";
 #else
     // Unix
-    return pathRet / ".talkcoin";
+    return pathRet / ".Chatcoin";
 #endif
 #endif
 }
